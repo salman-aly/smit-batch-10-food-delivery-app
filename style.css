@@ -1,3 +1,9 @@
+:root {
+    --primaryColor: #ff2806;
+    --secondaryColor: #00ff00;
+    --tertiaryColor: #fbe50a;
+}
+
 .navbar {
     background-color: #fff;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
@@ -5,43 +11,43 @@
 }
 
 .btn-primary {
-    background-color: #ff2806;
-    border-color: #ff2806;
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
 }
 
 
 .btn-primary:hover {
-    background-color: #ff2806;
-    border-color: #ff2806;
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
 }
 
 
 .btn-primary:active {
-    background-color: #ff2806;
-    border-color: #ff2806;
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
     opacity: 0.5;
 }
 
 .btn-outline-primary {
-    border-color: #00ff00;
-    color: #00ff00;
+    border-color: var(--secondaryColor);
+    color: var(--secondaryColor);
 }
 
 .btn-outline-primary:hover {
     background-color: #fff;
-    border-color: #00ff00;
-    color: #00ff00;
+    border-color: var(--secondaryColor);
+    color: var(--secondaryColor);
 }
 
 .btn-outline-primary:active {
     background-color: #fff;
-    border-color: #00ff00;
-    color: #00ff00;
+    border-color: var(--secondaryColor);
+    color: var(--secondaryColor);
     opacity: 0.5;
 }
 
 .text-bg-primary {
-    background-color: #fbe50a !important;
+    background-color: var(--tertiaryColor) !important;
     color: #000 !important;
 }
 
@@ -68,7 +74,7 @@
 
 .qty-btn {
     background-color: #fff;
-    border: 1px solid #ff2806;
+    border: 1px solid var(--primaryColor);
     height: 30px;
     width: 30px;
     border-radius: 15px;
@@ -81,7 +87,7 @@
 
 .socail-icons>i {
     font-size: 28px;
-    color: #ff2806;
+    color: var(--primaryColor);
 }
 
 .fit-height {
